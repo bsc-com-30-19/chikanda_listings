@@ -1,14 +1,16 @@
 import './App.css';
-import NavBar from './components/navbar';
-import HeroSection from './components/herosection';
+import { Routes, Route } from 'react-router-dom';
+import Layout from './components/layout'; 
+import StudentHome from './pages/studentHome';
 
 function App() {
   return (
-    <div>
-    <NavBar />
-    <HeroSection />
-    </div>
+      <Routes>
+        <Route path="/" element={<Layout/>} >
+          <Route index element={<StudentHome/>} />
+        </Route>
+      </Routes>
   );
 }
-
+ 
 export default App;

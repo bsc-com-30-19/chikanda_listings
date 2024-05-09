@@ -3,8 +3,7 @@ import girlImg from '../assets/img/girl.png';
 
 function HeroSection(){
     return(
-        
-        <div style={{border:'2px solid red'}} className='relative flex flex-col h-[353px]'>
+        <div className='relative flex flex-col h-[353px]'>
             <img src={girlImg} alt='Girl' style={{
                 zIndex:'-10'
             }} className='border-box object-cover h-[353px] w-[915] overflow-clip' />
@@ -14,7 +13,6 @@ function HeroSection(){
                 </div>
             </div>
         </div>
-        
     )
 }
 

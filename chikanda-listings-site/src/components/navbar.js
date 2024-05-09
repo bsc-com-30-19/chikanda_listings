@@ -1,5 +1,4 @@
 
-
 function NavBar(){
     return(
         <nav className="bg-p_cyan justify-between flex inline-flex w-full">

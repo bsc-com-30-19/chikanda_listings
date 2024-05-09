@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'p_cyan' : '#24CBFF'
+        'p_cyan' : '#24CBFF',
+        'p_teal' : '#278DAD'
       },
 
       /* backgroundImage:{

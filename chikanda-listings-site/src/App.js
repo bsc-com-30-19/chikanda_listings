@@ -1,12 +1,12 @@
 import './App.css';
 import NavBar from './components/navbar';
-import Welcomeimg from './components/welcomeImg';
+import HeroSection from './components/herosection';
 
 function App() {
   return (
     <div>
     <NavBar />
-    <Welcomeimg />
+    <HeroSection />
     </div>
   );
 }

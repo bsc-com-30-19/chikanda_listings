@@ -4,8 +4,12 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        p_cyan : '#24CBFF'
-      }
+        'p_cyan' : '#24CBFF'
+      },
+
+      /* backgroundImage:{
+        welcome : "url('./src/assets/img/pexels-olly-3c769021.png')"
+      } */
     },
   },
   plugins: [],

@@ -1,5 +1,5 @@
 import Sidebar from "../components/messaging/sidebar";
-import Chat from "../components/messaging/chat";
+import ChatBar from "../components/messaging/chatbar";
 import { Fragment } from "react";
 
 const MessagePage = () =>{
@@ -8,7 +8,7 @@ const MessagePage = () =>{
         <div className="flex h-screen overflow-hidden">
             
             <Sidebar/>
-            <Chat/>
+            <ChatBar/>
         </div>
         </Fragment>
     )

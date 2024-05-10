@@ -5,7 +5,7 @@ import { Fragment } from "react";
 const MessagePage = () =>{
     return(
         <Fragment>
-        <div className="flex h-screen overflow-hidden">
+        <div className="flex h-[calc(100vh-50px)] overflow-hidden rounded-t-[10px]">
             
             <Sidebar/>
             <ChatBar/>

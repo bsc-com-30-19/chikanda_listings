@@ -5,7 +5,7 @@ const Chats = () =>{
         <div className="p-[10px] flex items-center gap-[10px] cursor-pointer hover:bg-gray-500">
             <img src={image} alt='profile pic' className=" h-[50px] w-[50px] rounded-full object-cover"/>
             <div>
-                <span>Jane</span>
+                <span className="text-xl font-semibold">Jane</span>
                 <p>Hello am I doe?</p>
             </div>
         </div>

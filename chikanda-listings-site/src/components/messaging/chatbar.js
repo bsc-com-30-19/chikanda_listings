@@ -4,10 +4,10 @@ import Messages from "./messages";
 
 const ChatBar = () =>{
     return (
-        <div className="flex-[2] bg-white">
-            <div className="flex h-[50px] items-center gap-[10px] bg-[#15A8D5] px-[2.5px]">
+        <div className="flex-[2.5] bg-[#dbd8db]">
+            <div className="flex h-[70px] items-center gap-[10px] bg-[#0E6BA8] px-[25px]">
                 <img src={image} alt='profile pic' className=" h-[45px] w-[45px] rounded-full object-cover"/>
-                <span>Jane</span>
+                <span className=" text-xl font-bold text-p_lave">Jane</span>
             </div>
             <Messages />
             <InputMessage />

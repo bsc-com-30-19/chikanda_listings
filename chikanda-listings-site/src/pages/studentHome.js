@@ -1,10 +1,11 @@
+import { Fragment } from "react";
 import HeroSection from "../components/herosection";
 
 const StudentHome = () =>{
     return(
-            <div>
-                <HeroSection />
-            </div>
+        <Fragment>
+            <HeroSection />
+        </Fragment>
     );
 };
 

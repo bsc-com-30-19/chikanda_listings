@@ -3,7 +3,7 @@ import NavBar from "./navbar";
 
 const Layout = () => {
   return (
-    <div>
+    <div className="bg-p_snow h-fit">
       <NavBar />
       <Outlet />
     </div>

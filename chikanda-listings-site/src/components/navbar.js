@@ -1,7 +1,7 @@
 
 function NavBar(){
     return(
-        <nav className="bg-p_cyan justify-between flex inline-flex w-full">
+        <nav className="bg-p_cyan justify-between items-center inline-flex w-full h-[50px]">
             <div className="p-1.5">Logo</div>
             <ul className="inline-flex">
                 <li className="p-1.5">Search</li>

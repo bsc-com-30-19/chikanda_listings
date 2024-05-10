@@ -4,8 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'p_cyan' : '#24CBFF',
-        'p_teal' : '#278DAD'
+        'p_cyan'    : '#24CBFF',
+        'p_teal'    : '#278DAD',
+        'p_snow'    : '#FFFAFC',
+        'p_colu_d'  : '#B8C7D1',
+        'p_colu'    : '#CEDBE0'
       },
 
       /* backgroundImage:{

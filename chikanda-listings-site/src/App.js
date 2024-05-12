@@ -7,8 +7,9 @@ import Login from './pages/login';
 
 function App() {
   return (
+    //This routes our pages
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/" element={<Layout />}>{/*  Anything page route in this route attribute will have the nav bar */}
           <Route index element={<StudentHome />} />
           <Route path="inbox" element={<MessagePage />}/>
         </Route>

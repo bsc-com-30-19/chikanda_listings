@@ -9,7 +9,6 @@ const Sidebar = () =>{
             </div>
             <Search />
             <Chats />
-            sidebar
         </div>
     )
 }

@@ -5,6 +5,7 @@ import MessagePage from './pages/messagepage';
 import Layout from './components/layout';
 import Login from './pages/login';
 import Propertysearch from './pages/propertysearch';
+import SignUp from './pages/signup';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         </Route>
         <Route path="inbox" element={<MessagePage />}/>
         <Route path="/login" element={<Login />}/>
+        <Route path="/signup" element={<SignUp />}/>
       </Routes>
   );
 }

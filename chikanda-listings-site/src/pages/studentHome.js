@@ -6,6 +6,9 @@ const StudentHome = () =>{
     return(
         <Fragment>
             <HeroSection />
+            <div className="h-[100px]">
+
+            </div>
         </Fragment>
     );
 };

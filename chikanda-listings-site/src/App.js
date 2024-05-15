@@ -12,9 +12,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>{/*  Anything page route in this route attribute will have the nav bar */}
           <Route index element={<StudentHome />} />
-          <Route path="inbox" element={<MessagePage />}/>
           <Route path="propsearch" element={<Propertysearch/>}/>
         </Route>
+        <Route path="inbox" element={<MessagePage />}/>
         <Route path="/login" element={<Login />}/>
       </Routes>
   );

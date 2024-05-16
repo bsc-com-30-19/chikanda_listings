@@ -4,7 +4,7 @@ import Footer from "./footer";
 
 const Layout = () => {
   return (
-    <div className="bg-p_snow h-screen min-h-screen flex flex-col">
+    <div className="bg-white h-screen min-h-screen flex flex-col">
       <NavBar />
       <Outlet />
       {/*What the outlet tag does here is whenever a route is placed inside of it in app.js, 

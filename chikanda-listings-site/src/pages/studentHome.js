@@ -11,15 +11,14 @@ const StudentHome = () =>{
             Hostels based on your preferences:
           </h1>
           <hr className="h-[3px] border-[0px] bg-black rounded-full" />
-          <div className="pt-[25px] px-[25px] flex">
+          <div className="pt-[25px] px-[20px]">
+          <div className=" flex flex-row flex-wrap justify-start">
             <PropertyContainer />
             <PropertyContainer />
             <PropertyContainer />
             <PropertyContainer />
             <PropertyContainer />
-            <PropertyContainer />
-            <PropertyContainer />
-            <PropertyContainer />
+          </div>
           </div>
         </div>
         <div className="h-[100px]"></div>

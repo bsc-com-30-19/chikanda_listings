@@ -4,7 +4,7 @@ import StudentHome from './pages/studentHome';
 import MessagePage from './pages/messagepage';
 import Layout from './components/layout';
 import Login from './pages/login';
-
+import NotificationSystem from './pages/Notification System';
 function App() {
   return (
     //This routes our pages
@@ -12,7 +12,9 @@ function App() {
         <Route path="/" element={<Layout />}>{/*  Anything page route in this route attribute will have the nav bar */}
           <Route index element={<StudentHome />} />
           <Route path="inbox" element={<MessagePage />}/>
+          <Route path="Notif" element={<NotificationSystem />}/>
         </Route>
+
         <Route path="/login" element={<Login />}/>
       </Routes>
   );

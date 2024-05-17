@@ -1,6 +1,6 @@
 const Notification =() => {
     return (
-        <div>Notification</div>
+        <div className="h-[70px]"> Notification</div>
     )
 }
 

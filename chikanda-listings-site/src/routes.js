@@ -10,6 +10,7 @@ import PropertyManage from './pages/propertymange';
 import ToiletTypes from './components/propertymange/toilets';
 import RoomAvailability from './components/propertymange/room';
 import HostelBathrooms from './components/propertymange/hostelbathroom';
+import PropertyView from './pages/propertyview';
 
 const Routing = () => {
     return(
@@ -23,6 +24,7 @@ const Routing = () => {
           <Route path="/room" element={<RoomAvailability />} />
           <Route path="/hostbathroom" element={<HostelBathrooms />} />
           <Route path="/propmanage" element={<PropertyManage />}/>
+          <Route path="/propview" element={<PropertyView />} />
       </Route>
       <Route path="/inbox" element={<MessagePage />}/>
       <Route path="/login" element={<Login />}/>

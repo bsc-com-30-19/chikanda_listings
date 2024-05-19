@@ -6,7 +6,7 @@ export default function ReportC () {
               <table class="border-collapse">
                 <tbody>
                   <tr>
-                    <td class="px-2 py-1">Title:</td>
+                    <td class="px-2 py-1 font-bold">Title:</td>
                     <td class="px-2 py-1">A title name here</td>
                     <th class="px-2 py-1" rowspan="3">Status: Pending</th>
                   </tr>

@@ -8,7 +8,7 @@ const Report = () => {
 
       <div class="rounded-lg px-4 py-2">
         <table class="border-collapse">
-          <h2 class="mb-2 bg-blue-300 text-left font-bold">Make Request or Report</h2>
+          <h2 class="mb-2 bg-p_cyan text-left font-bold">Make Request or Report</h2>
           <tbody>
             <tr>
               <td class="px-2 py-1">
@@ -52,7 +52,7 @@ const Report = () => {
             </div>
 
             <div class="rounded-lg px-4 py-2">
-              <h2 class="mb-2 bg-blue-300 text-left font-bold">Sent Reports and Requests</h2>
+              <h2 class="mb-2 bg-p_cyan text-left font-bold">Sent Reports and Requests</h2>
               <table class="border-collapse">
                 <tbody>
                   <tr>

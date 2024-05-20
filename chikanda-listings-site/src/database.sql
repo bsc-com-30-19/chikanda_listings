@@ -25,3 +25,4 @@ CREATE TABLE student(
     SEX BOOLEAN NOT NULL,
     phoneno CHAR(10)
 );
+

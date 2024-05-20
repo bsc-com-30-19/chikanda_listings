@@ -1,3 +1,4 @@
+import Details from "./Details";
 import PropertyImges from "./propertyimgs";
 
 const MainBar = () =>{
@@ -6,6 +7,7 @@ const MainBar = () =>{
             <div className=" m-[15px] bg-p_lave w-full">
                 <div className="m-[15px]">
                 <PropertyImges />
+                <Details />
                 </div>
             </div>
         </div>

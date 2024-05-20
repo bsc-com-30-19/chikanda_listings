@@ -13,12 +13,10 @@ module.exports = {
         'p_purp_d'  : '#210124',
         'p_blue_d'  : '#105798'
       },
-
-      /* backgroundImage:{
-        welcome : "url('./src/assets/img/pexels-olly-3c769021.png')"
-      } */
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms')
+  ],
 }
 

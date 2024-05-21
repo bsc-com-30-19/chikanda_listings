@@ -1,23 +1,21 @@
-// Report.js
-
-import React from 'react';
+import React, { useState } from 'react';
 import ReportC from '../../components/reportComponent';
 import ReportRequest from '../../components/ReportRequest';
 
-const Report = () => {
+export default function ParentComponent() {
+  const [reports, setReports] = useState([]);
+
+  const handleReportSubmit = (reportData) => {
+    setReports([...reports, reportData]);
+  };
+
   return (
-    <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+    <>
+      <div className="grid grid-cols-2">
+        <ReportRequest onReportSubmit={handleReportSubmit} className="cols-span-1"/>
+        <ReportC reports={reports} className="cols-span-1"/>
+      </div>
 
-      <ReportRequest/>
-<div>
-<ReportC/>
-<ReportC/>
-<ReportC/>
-</div>
-
-            </div>
-
-          );
-};
-
-export default Report;
+    </>
+  );
+}

@@ -34,9 +34,7 @@ export default App;*/
 // App.js
 
 import React from 'react';
-import 'tailwindcss/tailwind.css';
 import CenteredButtons from '../components/managebookings/CenteredButtons';
-import './index.css';
 import Card from '../components/managebookings/Card';
 import EmailTable from '../components/managebookings/EmailTable'; // Import the EmailTable component
 

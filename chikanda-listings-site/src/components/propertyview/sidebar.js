@@ -1,8 +1,11 @@
+import OwnerDeets from "./ownerdeets";
 
 const SideBar = () =>{
     return(
         <div className="flex basis-[30%]">
-            SIDE
+            <div className="my-[15px] w-full mr-[15px]">
+                <OwnerDeets />
+            </div>
         </div>
     )
 }

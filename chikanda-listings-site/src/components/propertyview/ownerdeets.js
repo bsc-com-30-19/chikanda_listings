@@ -16,7 +16,7 @@ const OwnerDeets = () =>{
           <h1 className="leading-[50px]">Message</h1>
           <img src={messageico} alt="message" className="h-[50px] w-[50px]" />
         </div>
-        <button className="bg-p_colu">
+        <button className="bg-p_colu w-fit">
             <h1>View my other Hostels</h1>
         </button>
         <div className="bg-p_colu">

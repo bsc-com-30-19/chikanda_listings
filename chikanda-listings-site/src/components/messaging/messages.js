@@ -1,4 +1,5 @@
 import Message from "./message";
+import UserMessage from "./usermessage";
 
 const Messages = () =>{
     return (
@@ -6,6 +7,7 @@ const Messages = () =>{
             <Message />
             <Message />
             <Message />
+            <UserMessage />
         </div>
     )
 }

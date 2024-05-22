@@ -3,6 +3,7 @@ import sndimg from "../../assets/icons/sendmessage.png";
 import attach from "../../assets/icons/image_attachment.png";
 
 const InputMessage = () => {
+  
   return (
     <div className="h-[80px] bg-[#0E6BA8] p-[10px] flex items-center justify-between">
       <input

@@ -3,7 +3,7 @@ import ReviewRow from "./reviewrow";
 
 const Review = () =>{
     return(
-        <div className="bg-p_lave p-[15px] rounded-[25px] flex flex-col gap-[20px] font-bold text-[32px]">
+        <div className="bg-p_lave p-[15px] rounded-[25px] flex flex-col gap-[20px] font-bold text-[24px]">
             <h1>Reviews</h1>
                 <div>
                 <ReviewRow num="5" width="w-[75%]" />

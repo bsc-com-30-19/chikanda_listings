@@ -3,7 +3,6 @@ import { useForm } from "react-hook-form";
 
 const user = {email: "janedoe@jane.com", pass:"12345678"};
 
-
 const Login = () => {
   
   const navigate = useNavigate();
@@ -21,7 +20,6 @@ const Login = () => {
         message: "Wrong email or password"
       });
     }
-    console.log(data);
   };
 
   return (

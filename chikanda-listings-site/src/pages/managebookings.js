@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
-import 'tailwindcss/tailwind.css';
-import CenteredButtons from './Components/CenteredButtons';
-import './index.css';
-import Card from './Components/Card';
-import EmailTable from './Components/EmailTable'; // Import the EmailTable component
+import CenteredButtons from '../components/managebookings/CenteredButtons';
+import Card from '../components/managebookings/Card';
+import EmailTable from '../components/managebookings/EmailTable'; // Import the EmailTable component
 
 function App() {
   const [cursorX, setCursorX] = React.useState();

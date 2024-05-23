@@ -4,13 +4,13 @@ import studentimg from "../../assets/img/studentsit.jpg";
 
 const PropertyImges = () =>{
     return (
-      <div className=" flex gap-[5px]">
-        <div className="rounded-[5px] basis-1/2 h-[350px] w-[] overflow-clip">
-          <img src={houseimg} alt="Property" className="h-[350px] w-auto" />
+      <div className=" inline-flex gap-[5px]">
+        <div className="rounded-[5px] h-[350px] w-[75%] overflow-clip">
+          <img src={houseimg} alt="Property" className="h-[350px] w-auto cover" />
         </div>
         <div className="flex-col justify-between">
         <div className="">
-          <div className="rounded-[5px] h-[150px] w-[150px] overflow-clip">
+          <div className="rounded-[5px] h-[150px] w-[150px] mb-[50px] overflow-clip">
             <div className="h-full w-full">
               <img
                 src={dormimg}

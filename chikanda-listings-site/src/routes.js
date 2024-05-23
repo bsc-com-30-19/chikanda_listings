@@ -12,6 +12,7 @@ import RoomAvailability from './components/propertymange/room';
 import HostelBathrooms from './components/propertymange/hostelbathroom';
 import PropertyView from './pages/propertyview';
 import Report from './pages/reports/report';
+import ManageBookings from './pages/managebookings';
 
 
 const Routing = () => {
@@ -28,6 +29,7 @@ const Routing = () => {
           <Route path="/propmanage" element={<PropertyManage />}/>
           <Route path="/propview" element={<PropertyView />} />
           <Route path="/report" element={<Report/>} />
+          <Route path='/managebookings' element={<ManageBookings />} />
       </Route>
       <Route path="/inbox" element={<MessagePage />}/>
       <Route path="/login" element={<Login />}/>

@@ -3,6 +3,7 @@ import logo from "../assets/logo/LOGO.png";
 import searchico from "../assets/icons/Searchico.png";
 import notifico from "../assets/icons/notifico.png";
 import messageico from "../assets/icons/messageico.png";
+import image from "../assets/img/avatargirl.jpg";
 
 function NavBar() {
   return (
@@ -40,7 +41,11 @@ function NavBar() {
             Search
           </Link>
         </li>
-        <li className="p-1.5 ml-[50px] mr-[10px]">User</li>
+        <li className="p-1.5 ml-[50px] mr-[10px]">
+          <div>
+        <img src={image} alt='profile pic' className=" h-[45px] w-[45px] rounded-full object-cover"/>
+          </div>
+          </li>
       </ul>
     </nav>
   );

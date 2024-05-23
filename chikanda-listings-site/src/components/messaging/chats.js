@@ -6,7 +6,7 @@ const Chats = () =>{
             <img src={image} alt='profile pic' className=" h-[50px] w-[50px] rounded-full object-cover"/>
             <div>
                 <span className="text-xl font-semibold">Jane</span>
-                <p>Hello am I doe?</p>
+                <p>Do the self contained rooms have kitchens?</p>
             </div>
         </div>
     )

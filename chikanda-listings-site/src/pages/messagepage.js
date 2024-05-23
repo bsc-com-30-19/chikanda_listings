@@ -8,7 +8,6 @@ const MessagePage = () =>{
         <Fragment>
             <Navbar />
             <div className="flex h-[calc(100vh-50px)] overflow-hidden rounded-t-[10px]">
-                
                 <Sidebar/>
                 <ChatBar/>
             </div>

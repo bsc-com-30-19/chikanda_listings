@@ -11,7 +11,9 @@ const Details = () =>{
                 <div className=" inline-flex">
                     <div>
                     <label htmlFor="male">Male</label>
-                    <input type="checkbox" value="checked" name="male" disabled checked></input>
+
+                    <input type="checkbox" value="checked" name="male" disabled checked />
+                    
                     </div>
                     <div>
                     <label htmlFor="female">Female</label>

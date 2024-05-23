@@ -1,48 +1,14 @@
-/*import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
 import 'tailwindcss/tailwind.css';
 import CenteredButtons from './Components/CenteredButtons';
+import './index.css';
+import Card from './Components/Card';
+import EmailTable from './Components/EmailTable'; // Import the EmailTable component
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <CenteredButtons />
-    </div>
-  );
-}
-
-export default App;*/
-
-// App.js
-// App.js
-
-// App.js
-// App.js
-
-import React from 'react';
-import 'tailwindcss/tailwind.css';
-import CenteredButtons from '../components/managebookings/CenteredButtons';
-import './index.css';
-import Card from '../components/managebookings/Card';
-import EmailTable from '../components/managebookings/EmailTable'; // Import the EmailTable component
-
-function ManageBookings() {
   const [cursorX, setCursorX] = React.useState();
   const [cursorY, setCursorY] = React.useState();
+  const [statusFilter, setStatusFilter] = useState('Pending'); // Default to showing Pending emails
 
   React.useEffect(() => {
     const handleMouseDown = (e) => {
@@ -58,23 +24,22 @@ function ManageBookings() {
   }, []);
 
   return (
-    <div className="ManageBookings">
-      <div className="bg-cobalt h-[30vh] relative" style={{ top: '-20px' }}> {/* Move the text and buttons up */}
-        <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-4xl">
-          <p className="text-center">You have</p>
+    <div className="App">
+      <div className="bg-cobalt h-[30vh] relative flex flex-col justify-center items-center" style={{ top: '-20px' }}>
+        <div className="text-white text-4xl text-center">
+          <p>You have</p>
           <p className="text-green-500 text-6xl">X X</p>
-          <p className="text-center">pending booking requests</p>
+          <p>pending booking requests</p>
         </div>
       </div>
-      <div className="bg-white h-[40vh] flex justify-between items-start px-8 relative mt-20"> {/* Adjusted margin-top */}
-        <div className="absolute top-10 left-10 z-10">
-          <CenteredButtons />
-        </div>
-        <div className="absolute right-10 top-10 z-20">
+      <div className="bg-white min-h-[40vh] flex flex-col items-start justify-start mt-20 px-8 space-y-10">
+        {/* Adjusted margin-top */}
+        <div className="w-full flex justify-between items-start">
+          <div className="flex flex-col space-y-6">
+            <CenteredButtons setStatusFilter={setStatusFilter} />
+            <EmailTable statusFilter={statusFilter} />
+          </div>
           <Card />
-        </div>
-        <div className="absolute top-20 left-10 z-0" style={{ marginTop: '20px' }}> {/* Move the table down */}
-          <EmailTable />
         </div>
         <div
           className="cursor"
@@ -90,4 +55,4 @@ function ManageBookings() {
   );
 }
 
-export default ManageBookings;
+export default App;

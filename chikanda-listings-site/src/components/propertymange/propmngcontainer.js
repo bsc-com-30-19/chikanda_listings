@@ -1,5 +1,7 @@
  import { Link } from "react-router-dom";
 import house from "../../assets/img/dorm_stuff/house.jpg"
+import fico from "../../assets/icons/female.png"
+import mico from "../../assets/icons/male.png"
 
  const PropertyMngContainer = () =>{
     return(
@@ -8,8 +10,12 @@ import house from "../../assets/img/dorm_stuff/house.jpg"
         <div className="h-[70%] overflow-clip">
             <img src={house} alt="house" className="object-cover"/>
         </div>
-        <div className="h-full px-[5px]"> 
+        <div className="w-full px-[5px] inline-flex justify-between items-center"> 
             <h1 className=" leading-[60px] font-bold text-[20px]">300000 <span className="text-[16px]">MK/month</span></h1>
+            <div className="inline-flex gap-[10px]">
+                <img src={fico} alt="female icon" className="w-[30px] h-[30px]"/>
+                <img src={mico} alt="male icon" className="w-[30px] h-[30px]"/>
+            </div>
         </div>
     </div>
     </Link>

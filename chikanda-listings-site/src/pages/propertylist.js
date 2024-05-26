@@ -5,7 +5,7 @@ const PropertyList = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <div className='mb-3 m-6'>
-          <h1 className=' text-[20px]'>YOUR PROPERTIES</h1>
+          <h1 className='font-bold text-[24px]'>YOUR PROPERTIES</h1>
       <hr className='border border-black'></hr>
       </div>
       <main className="flex-grow flex justifyp-4 m-9">

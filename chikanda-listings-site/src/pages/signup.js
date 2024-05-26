@@ -48,6 +48,7 @@ const SignUp = () => {
                     message: "Invalid email address",
                   },
                 })}
+                name="email"
                 type="text"
                 placeholder="Enter Email"
               />
@@ -66,6 +67,7 @@ const SignUp = () => {
                     value:8,
                     message: "Minimum length is 8 characters"
                 }})}
+                name="password"
                 type="password"
                 placeholder="Enter Password"
               />
@@ -81,6 +83,7 @@ const SignUp = () => {
               <input
                 className="w-[65%] float-left rounded-[15px] border-none outline-none text-p_purp_d"
                 {...register("re_enter", {required: "Enter password again"})}
+                name="re_enter"
                 type="password"
                 placeholder="Enter Password"
               />

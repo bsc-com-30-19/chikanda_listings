@@ -11,8 +11,8 @@ import Report from './pages/reports/report';
 import ManageBookings from './pages/managebookings';
 import PropertyEdit from './pages/propertyedit_manage';
 import PropertyList from './pages/propertylist';
-import StudentForm from './components/maclo/Components/StudentForm';
-import LandlordForm from './components/maclo/Components/LandlordForm';
+import StudentForm from './pages/StudentForm';
+import LandlordForm from './pages/LandlordForm';
 
 
 const Routing = () => {

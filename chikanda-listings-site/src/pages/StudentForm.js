@@ -1,5 +1,5 @@
 import React from 'react';
-import avatar from '../../../assets/img/avatargirl.jpg';
+import avatar from '../assets/img/avatargirl.jpg';
 
 
 function App() {

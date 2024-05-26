@@ -1,4 +1,5 @@
 import logo from "../assets/logo/LOGO.png";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -24,8 +25,12 @@ function Footer() {
             <div className="text-[20px] basis-full md:basis-1/2 py-[25px] px-[25px]">
               <h1 className="text-[28px] font-bold">Contact us</h1>
               <ul>
-                <li>Send Request</li>
-                <li>Make report</li>
+                <li>
+                  <Link to="/report">Send Request</Link>
+                </li>
+                <li>
+                  <Link to="/report">Make report</Link>
+                </li>
                 <div>
                   <div className=" pt-[20px]">
                     <h1 className="text-[28px] font-bold">Phone number</h1>

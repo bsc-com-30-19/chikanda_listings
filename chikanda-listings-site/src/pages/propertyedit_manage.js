@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import first from "../Components/first.jpg";
-import second from "../Components/second.jpg";
-import three from "../Components/three.jpg";
-import four from "../Components/four.jpg";
-import five from "../Components/five.jpg";
-import six from "../Components/six.jpg";
+import first from "../assets/img/dorm_stuff/first.jpg";
+import second from "../assets/img/dorm_stuff/second.jpg";
+import three from "../assets/img/dorm_stuff/three.jpg";
+import four from "../assets/img/dorm_stuff/four.jpg";
+import five from "../assets/img/dorm_stuff/five.jpg";
+import six from "../assets/img/dorm_stuff/six.jpg";
 
-const MyForm = () => {
+const PropertyEdit = () => {
   const [description, setDescription] = useState('');
   const [rent, setRent] = useState('');
   const photos = [first, second, three, four, five, six]; // Store image paths here
@@ -51,7 +51,7 @@ const MyForm = () => {
       <form onSubmit={handleSubmit} style={{ flex: 1 }}>
         <div className="flex space-x-4">
           {photos.map((photo, index) => (
-            <img key={index} src={photo} alt={`Photo ${index + 1}`} className="w-40 h-20" />
+            <img key={index} src={photo} alt={`p ${index + 1}`} className="w-40 h-20" />
           ))}
         </div>
         <div className="property-details mt-20">
@@ -82,4 +82,4 @@ const MyForm = () => {
   );
 };
 
-export default MyForm;
+export default PropertyEdit;

@@ -1,7 +1,7 @@
 import React from 'react';
-import PropertyMngContainer from './Components/propmngcontainer';
+import PropertyMngContainer from '../components/propertymange/propmngcontainer';
 
-const Form = () => {
+const PropertyList = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <div className='mb-3 m-6'>
@@ -19,4 +19,4 @@ const Form = () => {
   );
 };
 
-export default Form;
+export default PropertyList;

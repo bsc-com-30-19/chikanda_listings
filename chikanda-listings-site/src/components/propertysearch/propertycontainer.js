@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import house from "../../assets/img/house.jpg";
+import house from "../../assets/img/dorm_stuff/house.jpg";
 import fico from "../../assets/icons/female.png"
 import mico from "../../assets/icons/male.png"
 

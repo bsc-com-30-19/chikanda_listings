@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import ReportC from '../../components/reportComponent';
-import ReportRequest from '../../components/ReportRequest';
+import ReportC from '../../components/reports/reportComponent';
+import ReportRequest from '../../components/reports/ReportRequest';
 
 export default function ParentComponent() {
   const [reports, setReports] = useState([]);
@@ -11,7 +11,7 @@ export default function ParentComponent() {
 
   return (
     <>
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-2 bg-p_lave">
         <ReportRequest onReportSubmit={handleReportSubmit} className="cols-span-1"/>
         <ReportC reports={reports} className="cols-span-1"/>
       </div>

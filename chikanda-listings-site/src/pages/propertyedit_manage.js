@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import first from "../Components/first.jpg";
-import second from "../Components/second.jpg";
-import three from "../Components/three.jpg";
-import four from "../Components/four.jpg";
-import five from "../Components/five.jpg";
-import six from "../Components/six.jpg";
+import first from "../assets/img/dorm_stuff/first.jpg";
+import second from "../assets/img/dorm_stuff/second.jpg";
+import three from "../assets/img/dorm_stuff/three.jpg";
+import four from "../assets/img/dorm_stuff/four.jpg";
+import five from "../assets/img/dorm_stuff/five.jpg";
+import six from "../assets/img/dorm_stuff/six.jpg";
 
-const MyForm = () => {
+const PropertyEdit = () => {
   const [description, setDescription] = useState('');
   const [rent, setRent] = useState('');
   const photos = [first, second, three, four, five, six]; // Store image paths here
@@ -44,18 +44,22 @@ const MyForm = () => {
   };
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-      <div className="flex justify-between mt-4">
+    <div className="p-[20px]" style={{ display: 'flex', flexDirection: 'column'}}>
+      <div className="rounded-[25px] px-[20px] bg-p_lave">
+      <form onSubmit={handleSubmit} style={{ flex: 1 }} className='mt-[20px]'>
+      <div className="bg-p_colu rounded-[25px] px-[25px] py-[30px]"> 
+      <div className="flex justify-between font-bold text-[24px]">
         <h2>Preview Image</h2>
       </div>
-      <form onSubmit={handleSubmit} style={{ flex: 1 }}>
         <div className="flex space-x-4">
           {photos.map((photo, index) => (
-            <img key={index} src={photo} alt={`Photo ${index + 1}`} className="w-40 h-20" />
+            <img key={index} src={photo} alt={`p ${index + 1}`} className="w-[150px] h-[150px]" />
           ))}
         </div>
-        <div className="property-details mt-20">
-          <h3>Property Details</h3>
+        </div>
+
+        <div className="bg-p_colu rounded-[25px] px-[25px] py-[30px] mt-[30px] font-semibold text-[18px] flex flex-col">
+          <h3 className='font-bold text-[24px]'>Property Details</h3>
           <label>
             Rent per month:
             <input type="number" value={rent} onChange={handleRentChange} placeholder="Rent Amount" style={{ margin: '10px' }} />
@@ -66,11 +70,12 @@ const MyForm = () => {
             <input type="radio" value="Female" checked={allowedSex === 'Female'} onChange={handleSexChange} /> Female
           </label>
         </div>
-        <div className="description mt-20">
-          <label>
+
+        <div className="bg-p_colu rounded-[25px] px-[25px] py-[30px] mt-[30px] font-semibold text-[18px] flex flex-col">
+          <label htmlFor='description'>
             Description:
-            <textarea style={{ border: '1px solid black' }} value={description} onChange={handleDescriptionChange} placeholder="Description" />
           </label>
+          <input name="description" style={{ border: '1px solid black' }} value={description} onChange={handleDescriptionChange} placeholder="Description" />
         </div>
         <button type="submit">Submit</button>
         <div className="flex justify-between mt-20">
@@ -78,8 +83,9 @@ const MyForm = () => {
           <button className={`${deleteButtonColor}`} onClick={handleDelete}>Delete Changes</button>
         </div>
       </form>
+      </div>
     </div>
   );
 };
 
-export default MyForm;
+export default PropertyEdit;

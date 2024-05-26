@@ -1,6 +1,6 @@
-import houseimg from "../../assets/img/house.jpg";
-import dormimg from "../../assets/img/Dorm.jpeg";
-import studentimg from "../../assets/img/studentsit.jpg";
+import houseimg from "../../assets/img/dorm_stuff/house.jpg";
+import dormimg from "../../assets/img/dorm_stuff/Dorm.jpeg";
+import studentimg from "../../assets/img/dorm_stuff/studentsit.jpg";
 
 const PropertyImges = () =>{
     return (

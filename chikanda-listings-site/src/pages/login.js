@@ -47,6 +47,7 @@ const Login = () => {
                 }})}
                 type="text"
                 placeholder="Enter Email"
+                name="email"
               />
               
             </div>
@@ -60,8 +61,9 @@ const Login = () => {
               <input
                 className="w-[65%] float-left rounded-[15px] border-none outline-none text-p_purp_d"
                 {...register("password", {required: "Password is required"})}
-                type="text"
+                type="password"
                 placeholder="Enter Password"
+                name="password"
               />
             </div>
           </div>

@@ -45,16 +45,8 @@ const MyForm = () => {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-      <header className="bg-blue-400" style={{ fontSize: '4em' }}>
-        <div className="flex justify-between">
-          <div>
-            <h1>Property Management</h1>
-          </div>
-        </div>
-      </header>
       <div className="flex justify-between mt-4">
         <h2>Preview Image</h2>
-        <input type="text" placeholder="Search..." />
       </div>
       <form onSubmit={handleSubmit} style={{ flex: 1 }}>
         <div className="flex space-x-4">
@@ -86,9 +78,6 @@ const MyForm = () => {
           <button className={`${deleteButtonColor}`} onClick={handleDelete}>Delete Changes</button>
         </div>
       </form>
-      <footer className="bg-blue-900 mt-4" style={{ fontSize: '4em' }}>
-        <h1>...</h1>
-      </footer>
     </div>
   );
 };

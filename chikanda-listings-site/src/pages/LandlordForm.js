@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 
 
 
-function App() {
+function LandlordForm() {
 
   return (
-    <div className="App">
+    <div className="App p-[20px]">
       
-      <main className="p-4">
+      <main className="p-[20px] rounded-[25px] bg-p_lave">
         <div className="w-full lg:w-1/3 p-4">
           <div className="mt-4">
             <label className="block text-lg font-medium ml-[-4]">Full Name:</label>
@@ -109,4 +109,4 @@ function ManageBookings() {
   );
 }
 
-export default App;
+export default LandlordForm;

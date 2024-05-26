@@ -2,11 +2,11 @@ import React from 'react';
 import avatar from '../assets/img/avatargirl.jpg';
 
 
-function App() {
+function StudentForm() {
 
   return (
-    <div className="App">
-      <main className="p-4">
+    <div className="App  p-[20px]">
+      <main className="p-[20px] rounded-[25px] bg-p_lave">
         <div className="w-1/3 p-4">
           <div className="mt-4">
             <label className="block text-lg font-medium ml-[-4]">Full Name:</label>
@@ -90,4 +90,4 @@ function PhoneNumber() {
   );
 }
 
-export default App;
+export default StudentForm;

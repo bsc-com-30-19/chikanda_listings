@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 
 const user = {email: "janedoe@jane.com", pass:"12345678"};
@@ -66,7 +66,7 @@ const SignUp = () => {
                     value:8,
                     message: "Minimum length is 8 characters"
                 }})}
-                type="text"
+                type="password"
                 placeholder="Enter Password"
               />
             </div>
@@ -81,7 +81,7 @@ const SignUp = () => {
               <input
                 className="w-[65%] float-left rounded-[15px] border-none outline-none text-p_purp_d"
                 {...register("re_enter", {required: "Enter password again"})}
-                type="text"
+                type="password"
                 placeholder="Enter Password"
               />
             </div>

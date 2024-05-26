@@ -2,10 +2,12 @@ import React from 'react';
 
 export default function ReportC({ reports }) {
   return (
-    <>
-    <div className="rounded-lg px-4 py-2">
-      <h2 className="mb-2 bg-p_cyan text-left font-bold">Sent Reports and Requests</h2>
-      <table className="border-collapse">
+    <div className=" px-4 py-2">
+      <div className='rounded-[15px] bg-white overflow-clip'>
+      <div>
+      <h2 className="pl-[10px] mb-2 bg-p_cyan text-left text-[32px] font-bold">Sent Reports and Requests</h2>
+      </div>
+      <table className="border-collapse w-full">
         <tbody>
           {reports.map((report, index) => (
             <><tr key={index}>
@@ -20,11 +22,12 @@ export default function ReportC({ reports }) {
               </tr><tr key={index + 'date'}>
                 <td className="px-2 py-1">Date sent:</td>
                 <td className="px-2 py-1">{report.dateSent}</td>
-              </tr></>
+              </tr>
+              </>
           ))}
         </tbody>
       </table>
+      </div>
     </div>
-    </>
   );
 }

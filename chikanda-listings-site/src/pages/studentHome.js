@@ -6,7 +6,7 @@ const StudentHome = () =>{
     return (
       <div>
         <HeroSection />
-        <div className="px-[5px]">
+        <div className="px-[5px] mt-[20px]">
           <h1 className="font-bold text-[28px] mb-[5px]">
             Hostels based on your preferences:
           </h1>

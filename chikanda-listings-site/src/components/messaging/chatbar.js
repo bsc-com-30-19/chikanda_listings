@@ -15,8 +15,13 @@ const ChatBar = () =>{
     const [texts, setTexts] = useState(USERMESSAGEDATA);
 
     const addUmessage = (m) =>{
-        const newMessage = {id:ArrLen++, text: m}
+        if (m?.trim() === ""){
+
+        }
+        else{
+        const newMessage = {id:ArrLen++, text: m.trim()}
         setTexts([...texts, newMessage])
+        }
     }
 
     return (

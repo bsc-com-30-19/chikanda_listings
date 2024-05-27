@@ -6,13 +6,13 @@ const EmailTable = ({ statusFilter }) => {
   const emailsPerPage = 3;
 
   const allEmails = useMemo(() => [
-    { name: 'Dr Isaac', dateSent: '10/05/2024', status: 'Pending' },
+    { name: 'Paul', dateSent: '10/05/2024', status: 'Pending' },
     { name: 'Paul', dateSent: '10/04/2024', status: 'Declined' },
-    { name: 'Charles', dateSent: '10/03/2024', status: 'Accepted' },
-    { name: 'Belo', dateSent: '10/02/2024', status: 'Pending' },
-    { name: 'Takondwa', dateSent: '10/01/2024', status: 'Declined' },
-    { name: 'Ruth', dateSent: '09/30/2024', status: 'Accepted' },
-    { name: 'Justice', dateSent: '09/29/2024', status: 'Pending' },
+    { name: 'Paul', dateSent: '10/03/2024', status: 'Accepted' },
+    { name: 'Paul', dateSent: '10/02/2024', status: 'Pending' },
+    { name: 'Paul', dateSent: '10/01/2024', status: 'Declined' },
+    { name: 'Paul', dateSent: '09/30/2024', status: 'Accepted' },
+    { name: 'Paul', dateSent: '09/29/2024', status: 'Pending' },
   ], []);
 
   const [filteredEmails, setFilteredEmails] = useState(allEmails);

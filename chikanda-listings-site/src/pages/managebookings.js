@@ -1,14 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import CenteredButtons from '../components/managebookings/CenteredButtons';
 import Card from '../components/managebookings/Card';
-import EmailTable from '../components/managebookings/EmailTable'; // Import the EmailTable component
+import EmailTable from '../components/managebookings/EmailTable'; // Ensure the path is correct
+import '../index.css'; // Ensure the path is correct
 
-function App() {
-  const [cursorX, setCursorX] = React.useState();
-  const [cursorY, setCursorY] = React.useState();
+const ManageBookings = () => {
+  const [cursorX, setCursorX] = useState();
+  const [cursorY, setCursorY] = useState();
   const [statusFilter, setStatusFilter] = useState('Pending'); // Default to showing Pending emails
 
-  React.useEffect(() => {
+  useEffect(() => {
     const handleMouseDown = (e) => {
       setCursorX(e.pageX);
       setCursorY(e.pageY);
@@ -23,8 +24,8 @@ function App() {
 
   return (
     <div className="App">
-      <div className="bg-p_blue_d h-[30vh] relative flex flex-col justify-center items-center" >
-        <div className="text-white  text-4xl text-center">
+      <div className="bg-cobalt h-[30vh] relative flex flex-col justify-center items-center" style={{ top: '-20px' }}>
+        <div className="text-white text-4xl text-center">
           <p>You have</p>
           <p className="text-green-500 text-6xl">X X</p>
           <p>pending booking requests</p>
@@ -53,4 +54,4 @@ function App() {
   );
 }
 
-export default App;
+export default ManageBookings;

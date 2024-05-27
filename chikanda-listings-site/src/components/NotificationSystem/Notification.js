@@ -1,6 +1,6 @@
-const Notification =() => {
+const Notification =(props) => {
     return (
-        <div className="h-[70px] bg-p_lave my-[5px] rounded-[5px] p-[15px] font-semibold text-[22px]">You have received a message</div>
+        <div className="h-[70px] bg-p_lave my-[5px] rounded-[5px] p-[15px] font-semibold text-[22px]">{props.text}</div>
     )
 }
 

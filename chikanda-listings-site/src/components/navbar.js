@@ -43,7 +43,7 @@ function NavBar() {
         </li>
         <li className="p-1.5 ml-[50px] mr-[10px]">
           <div>
-            <Link to='/landlord/manageaccnt' >
+            <Link to='/student/manageaccnt' >
         <img src={image} alt='profile pic' className=" h-[45px] w-[45px] rounded-full object-cover"/>
             </Link>
           </div>

@@ -23,10 +23,10 @@ const Routing = () => {
           <Route index element={<StudentHome />} />
           <Route path="Notif" element={<NotificationSystem />}/>
           <Route path="propsearch" element={<Propertysearch/>}/>
-          <Route path="/propmanage" element={<PropertyEdit />}/>
+          <Route path="propmanage" element={<PropertyEdit />}/>
           <Route path="landlord/proplist" element={<PropertyList />}/>
-          <Route path="/propview" element={<PropertyView />} />
-          <Route path="/report" element={<Report/>} />
+          <Route path="propview" element={<PropertyView />} />
+          <Route path="report" element={<Report/>} />
           <Route path='landlord/managebookings' element={<ManageBookings />} />
           <Route path="student/manageaccnt" element={<StudentForm />} />
           <Route path="landlord/manageaccnt" element={<LandlordForm />} />

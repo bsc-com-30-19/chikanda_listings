@@ -18,8 +18,9 @@ function Footer() {
             <div className="text-[20px] block basis-full md:basis-1/2 py-[25px] px-[25px]">
               <h1 className="text-[28px] font-bold"> Discover</h1>
               <ul>
-                <li>Host properties</li>
-                <li>How it works</li>
+                <li>
+                  <Link to="/signup">Host properties</Link>
+                  </li>
               </ul>
             </div>
             <div className="text-[20px] basis-full md:basis-1/2 py-[25px] px-[25px]">

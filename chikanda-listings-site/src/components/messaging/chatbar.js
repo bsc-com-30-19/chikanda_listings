@@ -3,7 +3,6 @@ import InputMessage from "./inputmessage";
 import Messages from "./messages";
 import { useState } from "react";
 
-
 const USERMESSAGEDATA =[
     {id: "0", text: "Yes Hello"},
     {id: "1", text: "I understand"}
@@ -15,8 +14,13 @@ const ChatBar = () =>{
     const [texts, setTexts] = useState(USERMESSAGEDATA);
 
     const addUmessage = (m) =>{
-        const newMessage = {id:ArrLen++, text: m}
+        if (m?.trim() === ""){
+            return;
+        }
+        else{
+        const newMessage = {id:ArrLen++, text: m.trim()}
         setTexts([...texts, newMessage])
+        }
     }
 
     return (

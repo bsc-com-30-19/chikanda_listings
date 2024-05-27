@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/chikanda_listings/static/css/main.d57773e2.css",
-    "main.js": "/chikanda_listings/static/js/main.dcd8d6dc.js",
+    "main.js": "/chikanda_listings/static/js/main.a2a10f9c.js",
     "static/js/453.39cef71c.chunk.js": "/chikanda_listings/static/js/453.39cef71c.chunk.js",
     "static/media/studentsit.jpg": "/chikanda_listings/static/media/studentsit.39e2a6488c9fa8b16ef7.jpg",
     "static/media/girl.png": "/chikanda_listings/static/media/girl.d79be00e6ff25b684a07.png",
@@ -16,11 +16,11 @@
     "static/media/house.jpg": "/chikanda_listings/static/media/house.09fee0f1d700c7c7357b.jpg",
     "index.html": "/chikanda_listings/index.html",
     "main.d57773e2.css.map": "/chikanda_listings/static/css/main.d57773e2.css.map",
-    "main.dcd8d6dc.js.map": "/chikanda_listings/static/js/main.dcd8d6dc.js.map",
+    "main.a2a10f9c.js.map": "/chikanda_listings/static/js/main.a2a10f9c.js.map",
     "453.39cef71c.chunk.js.map": "/chikanda_listings/static/js/453.39cef71c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d57773e2.css",
-    "static/js/main.dcd8d6dc.js"
+    "static/js/main.a2a10f9c.js"
   ]
 }

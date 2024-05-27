@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/chikanda_listings/static/css/main.d57773e2.css",
-    "main.js": "/chikanda_listings/static/js/main.677d672b.js",
-    "static/js/453.39cef71c.chunk.js": "/chikanda_listings/static/js/453.39cef71c.chunk.js",
-    "static/media/studentsit.jpg": "/chikanda_listings/static/media/studentsit.39e2a6488c9fa8b16ef7.jpg",
-    "static/media/girl.png": "/chikanda_listings/static/media/girl.d79be00e6ff25b684a07.png",
-    "static/media/five.jpg": "/chikanda_listings/static/media/five.73e9459d22e8a8b194f9.jpg",
-    "static/media/avatargirl.jpg": "/chikanda_listings/static/media/avatargirl.19cdea560889613e0cee.jpg",
-    "static/media/six.jpg": "/chikanda_listings/static/media/six.86dd4dd2f0b4eab797e1.jpg",
-    "static/media/Dorm.jpeg": "/chikanda_listings/static/media/Dorm.9dbfb6ba852e371ac5c5.jpeg",
-    "static/media/three.jpg": "/chikanda_listings/static/media/three.1330cbff74b607ea3abd.jpg",
-    "static/media/second.jpg": "/chikanda_listings/static/media/second.637086267d9674edb1e5.jpg",
-    "static/media/first.jpg": "/chikanda_listings/static/media/first.74b567a63614c307a0b8.jpg",
-    "static/media/four.jpg": "/chikanda_listings/static/media/four.b7c1c7deca0a0e8ab696.jpg",
-    "static/media/house.jpg": "/chikanda_listings/static/media/house.09fee0f1d700c7c7357b.jpg",
-    "index.html": "/chikanda_listings/index.html",
-    "main.d57773e2.css.map": "/chikanda_listings/static/css/main.d57773e2.css.map",
-    "main.677d672b.js.map": "/chikanda_listings/static/js/main.677d672b.js.map",
-    "453.39cef71c.chunk.js.map": "/chikanda_listings/static/js/453.39cef71c.chunk.js.map"
+    "main.css": "./static/css/main.d57773e2.css",
+    "main.js": "./static/js/main.f341a376.js",
+    "static/js/453.39cef71c.chunk.js": "./static/js/453.39cef71c.chunk.js",
+    "static/media/studentsit.jpg": "./static/media/studentsit.39e2a6488c9fa8b16ef7.jpg",
+    "static/media/girl.png": "./static/media/girl.d79be00e6ff25b684a07.png",
+    "static/media/five.jpg": "./static/media/five.73e9459d22e8a8b194f9.jpg",
+    "static/media/avatargirl.jpg": "./static/media/avatargirl.19cdea560889613e0cee.jpg",
+    "static/media/six.jpg": "./static/media/six.86dd4dd2f0b4eab797e1.jpg",
+    "static/media/Dorm.jpeg": "./static/media/Dorm.9dbfb6ba852e371ac5c5.jpeg",
+    "static/media/three.jpg": "./static/media/three.1330cbff74b607ea3abd.jpg",
+    "static/media/second.jpg": "./static/media/second.637086267d9674edb1e5.jpg",
+    "static/media/first.jpg": "./static/media/first.74b567a63614c307a0b8.jpg",
+    "static/media/four.jpg": "./static/media/four.b7c1c7deca0a0e8ab696.jpg",
+    "static/media/house.jpg": "./static/media/house.09fee0f1d700c7c7357b.jpg",
+    "index.html": "./index.html",
+    "main.d57773e2.css.map": "./static/css/main.d57773e2.css.map",
+    "main.f341a376.js.map": "./static/js/main.f341a376.js.map",
+    "453.39cef71c.chunk.js.map": "./static/js/453.39cef71c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d57773e2.css",
-    "static/js/main.677d672b.js"
+    "static/js/main.f341a376.js"
   ]
 }

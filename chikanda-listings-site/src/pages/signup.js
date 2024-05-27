@@ -16,7 +16,7 @@ const SignUp = () => {
             if (data.password !== data.re_enter){
                 throw new TypeError("Password do not match")
             }
-            navigate('/')
+            navigate('/landlord/manageaccnt')
           } catch ({name, message}) {
             setError("re_enter", {
               message: message

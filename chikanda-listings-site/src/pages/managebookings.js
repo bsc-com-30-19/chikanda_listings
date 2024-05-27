@@ -24,7 +24,7 @@ const ManageBookings = () => {
 
   return (
     <div className="App">
-      <div className="bg-cobalt h-[30vh] relative flex flex-col justify-center items-center" style={{ top: '-20px' }}>
+      <div className="bg-p_blue_d h-[30vh] relative flex flex-col justify-center items-center">
         <div className="text-white text-4xl text-center">
           <p>You have</p>
           <p className="text-green-500 text-6xl">X X</p>
